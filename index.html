@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Extreme Rentals</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0a05;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+    background: #140a03;
+    animation: fadeIn 1s ease;
+}
+
+h1 {
+    color: #ff7a00;
+}
+
+.card {
+    margin: 40px auto;
+    padding: 25px;
+    width: 80%;
+    background: #1f1208;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 122, 0, 0.5);
+    animation: slideUp 1s ease forwards;
+}
+
+.card h2 {
+    color: #ff7a00;
+}
+
+.price {
+    color: #ffa64d;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff7a00;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #ffa64d;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Extreme Rentals</h1>
+    <p>Choose your adventure and feel the real adrenaline</p>
+</header>
+
+<div class="card">
+    <h2>Sahara Buggy Rental</h2>
+    <p>
+        Enjoy an unforgettable experience in the Sahara Desert. Our powerful buggies
+        are designed for extreme conditions and high speed on sand dunes.
+        This adventure is perfect for people who love freedom, speed and nature.
+    </p>
+    <p>
+        You can ride alone or with a guide. Safety equipment is included,
+        and our team will help you before the ride. The desert landscape,
+        sunset views and long open roads make this experience truly unique.
+    </p>
+    <p><b>Includes:</b> Helmet, guide, fuel, инструктаж</p>
+    <p class="price">4500 UAH / hour</p>
+    <button>Rent Now</button>
+</div>
+
+<div class="card">
+    <h2>Hoverla Downhill Bikes</h2>
+    <p>
+        Ride professional downhill bikes on the slopes of Mount Hoverla.
+        This is the best choice for mountain lovers and extreme riders.
+        The трассы include different difficulty levels for beginners and advanced riders.
+    </p>
+    <p>
+        Our bikes have full suspension and strong brakes for maximum safety.
+        You will enjoy fast descents, forest trails and amazing mountain views.
+    </p>
+    <p><b>Includes:</b> Bike, helmet, protection gear</p>
+    <p class="price">1200 UAH / day</p>
+    <button>Rent Now</button>
+</div>
+
+<div class="card">
+    <h2>Berlin Pit Bikes & Enduro</h2>
+    <p>
+        Explore Berlin in a different way with pit bikes and enduro motorcycles.
+        You can ride both in the city and on off-road tracks.
+    </p>
+    <p>
+        These bikes are perfect for fun, tricks and learning new skills.
+        Whether you are a beginner or experienced rider, you will enjoy this activity.
+    </p>
+    <p><b>Includes:</b> Fuel, helmet, technical support</p>
+    <p class="price">2000 UAH / day</p>
+    <button>Rent Now</button>
+</div>
+
+</body>
+</html>
